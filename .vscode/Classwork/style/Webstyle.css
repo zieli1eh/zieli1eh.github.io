@@ -1,9 +1,19 @@
 body { 
     background-color: rgb(249, 226, 247);
 }
+header{
+    background-color: #aea2cf;
+    padding: 0px;
+}
 h1 { 
     text-align: center;
-    color:rgb(47, 12, 80)
+    color:#2f0c50;
+    font-size: 50pt;
+    background-color: #aea2cf;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 650;
+    font-style: normal;
+    padding: 0px;
 }
 img { 
     text-align: center;
@@ -11,18 +21,46 @@ img {
 h2 {
     text-align: center;
     color: rgb(60, 33, 91);
+    font-size: 30pt;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 515;
+    font-style: normal;
 }
 h3 {
     text-align: center;
-    color: rgb(94, 66, 119);
+    color: rgb(81, 43, 114);
+    font-size: 23pt;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 515;
+    font-style: normal;
 }
 section{
     text-align: center;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-bottom: 40px;
+    color: #594070;
 }
 a {
     text-align: center;
-    font-size: 36pts;
+    font-size: 20pt;
 }
 nav {
     text-align:center ;
+    font-size: 15pt;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+}
+p {
+    text-align: center;
+    font-size: 15pt;
+    color: #594070;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+}
+footer {
+    background-color: #bfaed9;
+    text-align: center;
 }
