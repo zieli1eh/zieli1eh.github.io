@@ -1,0 +1,91 @@
+/* #ssn { 
+    color: red;
+}
+
+#statusResult{ 
+    color: blue;
+    text-decoration-line: dashed;
+    text-decoration-thickness: 4px;
+    text-decoration-line: underline;
+} */
+
+body {
+    font-size: 18pt;
+    background-color: rgb(187, 233, 233);
+}
+
+.blue{
+     color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.pink{
+    color:hotpink;
+}
+
+.orange{
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+.navy{
+    color: navy;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+h3 {
+    font-size: 15pt;
+}
+.center {
+    text-align: center;
+}
+
+.oldNewUgly {
+    font-family: "drunk-cowboy", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+}
+.space{
+    font-family: "strenuous", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.samurai{
+    font-family: "sincopa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.hillHaveEyes{
+    font-family: "bmx-radical", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.dream{
+    font-family: "dream-big-wide", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.barbie{
+    font-family: "fabulosa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.spider{
+    font-family: "rubik-glitch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

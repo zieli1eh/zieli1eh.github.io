@@ -1,0 +1,18 @@
+* {
+    outline: 2px solid rgb(237, 32, 134);
+}
+
+#parent {
+
+     width: 100vw;
+    height: 100vh;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+    gap: 10px;
+
+
+}

@@ -1,0 +1,23 @@
+:root{
+    font-size: 18px;
+    max-width: 400px;
+}
+
+div{
+
+    outline: 3px solid #f0f;
+    padding: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    transform: rotate(45deg);
+    transform: skew(30deg);
+    
+}
+
+p {
+    background-color: aqua;
+    padding: 5px;
+    min-width: 700px;
+}
