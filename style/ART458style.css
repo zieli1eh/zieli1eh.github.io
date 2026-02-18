@@ -1,5 +1,7 @@
-body {
-    background-color: rgb(245, 197, 225);
+#background {
+    background-image: url(/img/TropicBackground\ 90.jpg);
+    height: 100vh;
+    width: 100vw;
 }
 h1 {
     text-align: center;
