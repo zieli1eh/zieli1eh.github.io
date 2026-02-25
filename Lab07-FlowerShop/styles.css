@@ -1,0 +1,133 @@
+:root {
+    font-size: 18pt;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* I will remove this later */
+}
+
+header, nav, main, footer {
+  
+}
+
+header {
+    background-color: rgb(212, 162, 204);
+    height: 200px;
+    font-size: 5rem;
+    color: rgb(43, 14, 37);
+    font-family: "brooklyn-heritage-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(190, 229, 158);
+    font-family: "laca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav a {
+
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+  
+}
+
+nav a:link {
+
+    
+    color: black;
+    
+
+}
+
+nav a:hover {
+
+    background-color: rgb(93, 153, 107);
+    color: rgb(1, 12, 5);
+    transform: scale(1.5);
+    border-radius: 35%;
+    
+}
+
+nav a:focus {
+
+    background-color: rgb(101, 163, 216);
+    color: rgb(225, 223, 225);
+    transform: scale(1.5);
+   
+    
+}
+
+main {
+    background-color: rgb(54, 106, 55);
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+aside {
+    background-color: rgb(103, 55, 104);
+    width: 400px;   
+    padding: 15px;
+    color: white;
+    font-family: "laca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+aside a {
+
+    color: white;
+    text-decoration: none;
+    font-family: "laca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+aside a:hover{
+
+    color: rgb(214, 244, 133);
+    text-decoration: underline;
+}
+
+article {
+    background-color: rgb(116, 184, 133); 
+    flex-grow: 4; 
+}
+
+article:hover {
+
+    background-color: rgb(191, 245, 195); 
+    opacity: 25%;
+}
+
+footer {
+    background-color: rgb(212, 162, 204);
+    min-height: 300px;
+    font-family: "europa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(32, 1, 36);
+    
+}
