@@ -1,0 +1,44 @@
+:root {
+
+font-size: 18pt;
+color: rgb(7, 70, 68);
+
+}
+
+#grid-container {
+
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(180, 213, 199);
+    aspect-ratio: 1/1;
+    width: 90vh;
+    gap: 0;
+    padding: 0;
+
+}
+    
+#grid-container div {
+
+    border: 3px solid rgb(82, 140, 146);
+    padding: 0.5rem;
+}
+
+#grid-container div:nth-of-type(odd) {
+    background-color: aliceblue;
+}
+
+#grid-container div:hover{
+    background-color: rgb(106, 149, 138);
+}
+
+#grid-container div:nth-of-type(odd):hover{
+    background-color: rgb(233, 206, 228);
+}
+
+/* #grid-container div:nth-of-type(10){
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+} */
