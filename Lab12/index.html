@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 12 Recap</title>
-    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
-    <header></header>
+    <div id="overlay-menu" class="overlay-menu open">
+        <a href="#" onclick="closeOverlay()">CLOSE</a>
+        <a href="index.html">Home</a>
+        <a href="students.html">Students</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <header>
+        <span class="brand"> <a href="index.html">Class of 2027</a></span>
+        <nav>
+            <a href="#" onclick="openOverlay()">☰</a>
+            <a href="index.html">Home</a>
+            <a href="students.html">Students</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
     <main>
 
@@ -21,11 +36,13 @@
 
 
                 <picture>
-                <source srcset="img/class-hori.webp" media="(min-width: 900px)" type="image/webp">
+                <source srcset="img/class-horizontal.webp" media="(min-width: 900px)" type="image/webp">
                 <img src="img/class-vertical.webp" alt="CMICH GD Class of 2027">
             </picture>
 
-            <h1>CMICH GD Class of 2027</h1>
+            <div class="grid3x1"><h1>CMICH GD Class of 2027</h1></div>
+
+            
 
 
 
@@ -42,7 +59,10 @@
     </main>
 
 
-    <footer></footer>
+    <footer>
+
+        This is my footer, we will put some contact info here later.
+    </footer>
 
 
     <div id="site-background">
@@ -67,6 +87,9 @@
 
 
         </div>
+
+
+       <script src="js/script.js"></script>
     
 </body>
 </html>

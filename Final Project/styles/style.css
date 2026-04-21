@@ -42,19 +42,13 @@
 
 }
 
-.gallery {
-
-  
-}
-
-
 .nav {
     display: flex;
     justify-content: space-around;
     margin-bottom: 15px;
 }
 
-.nav button {
+.nav  {
   background: #d6a8bd;
   border: none;
   padding: 5px 10px;
