@@ -347,12 +347,7 @@ footer {
     
 }
 
-@keyframes propeller {
 
-    from {transform: rotate(0);}
-    to {transform: rotate(360deg);}
-    
-}
 
 /* Styles for iPad */
 

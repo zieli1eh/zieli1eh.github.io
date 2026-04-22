@@ -25,7 +25,7 @@
 }
 .content {
     
-    padding: 15px;
+    padding: 0px;
     border: 4px solid #d6c1a5;
     background-color:#f4f3e8 ;
     width: auto;
@@ -40,7 +40,7 @@
     font-weight: 400;
     font-style: normal;
     color: #A46589;
-
+    font-size: 45px;
 }
 
 
@@ -52,28 +52,42 @@
 
 .nav a{
   background: #d6a8bd;
+  font-family: "paradroid-mono-soft", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   border: none;
   padding: 5px 10px;
   border-radius: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 23px;
 }
 
 h2 {
   color: #b07a91;
-  font-size: 28px;
+  font-size: 38px;
   font-family: "exo-soft", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  margin: 10px 0;
+  font-weight: 700;
+  font-style: italic;
+  margin: 25px 0;
 }
+
+h3 {
+
+    font-size: 17px;
+    color: #403737;
+    font-family: "paradroid-mono-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
 
 p {
     font-size: 15px;
     font-family: "paradroid-mono-soft", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #6b5a5a;
+    color: #403737;
 }
 
 img {
@@ -92,16 +106,55 @@ img {
   height: auto;
 
 }
+
+.aboutPhoto{
+
+    width: 30% ;
+  height: auto;
+  border-radius: 50%;
+  border: 10px solid #c7a77e;
+
+
+}
+
+
  .moveTo a{
   background: #d6a8bd;
   border: none;
-  padding: 5px 10px;
+  padding: 5px 3px;
   border-radius: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 17px;
+  font-family: "paradroid-mono-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .moveTo {
     display: flex;
     justify-content: space-around;
     margin-bottom: 15px;
 }
+
+footer {
+    padding: -0%;
+}
+ .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
