@@ -50,7 +50,7 @@
     margin-bottom: 15px;
 }
 
-.nav button {
+.nav a{
   background: #d6a8bd;
   border: none;
   padding: 5px 10px;
@@ -79,6 +79,16 @@ p {
 img {
 
   width: 35% ;
+  height: auto;
+
+}
+
+.profile img {
+
+  border-radius: 50%;
+  border: 4px solid #d6c1a5;
+  margin: 10px 0;
+  width: 125px ;
   height: auto;
 
 }
