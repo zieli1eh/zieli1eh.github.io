@@ -189,25 +189,30 @@ footer {
 .inner {
   width: fit-content;
   display: flex;
-  gap: 1px;
-  margin-top: 1px;
+  gap: 0px;
+  margin-top: 50px;
 }
 .animation-one {
-  animation: loop 5s linear infinite;
+  animation: loop 10s linear infinite;
 }
-.tag {
-  color: #e2e8f0;
 
+.tag {
+ 
+  transform: scale(200%);
   background-color: #f4f3e8;
-  padding: 0.7rem 1rem;
-  border-radius: 0.4rem;
+  padding: 10px;
+  border-radius: 1rem;
 }
+
 .fade {
   position: absolute;
   background: linear-gradient(90deg,#f4f3e8, transparent 30%, transparent 70%, #1e293b);
   inset: 0;
   pointer-events: none;
 }
+
+
+
 @keyframes loop {
   0% {
     transform: translateX(0);
